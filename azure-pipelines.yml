@@ -8,8 +8,8 @@ jobs:
   steps:
   - task: SonarCloudPrepare@1
     inputs:
-      SonarCloud: 'SonarCloud' # Name of the SonarCloud service connection you created
-      organization: 'sonarsource-cfamily-examples'
+      SonarCloud: 'SC' # Name of the SonarCloud service connection you created
+      organization: 'michaeljabbour0313'
       scannerMode: 'CLI'
       configMode: 'file'
   - bash: |
